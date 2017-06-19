@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efeff4"
+    android:orientation="vertical">
+
+    <com.example.ghl.cardishboarddemo.CarDashboardView
+        android:id="@+id/mCarDashboardView"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_margin="20dp"
+        android:background="#263238" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/speed_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="油门" />
+
+        <Button
+            android:id="@+id/speed_down"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刹车" />
+    </LinearLayout>
+
+
+</LinearLayout>
